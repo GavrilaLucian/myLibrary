@@ -1,7 +1,6 @@
 {
-  "name": "myLibrary",
+  "name": "github",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,15 +10,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^3.1.5",
-    "express": "^4.17.1",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
     "express-ejs-layouts": "^2.5.0",
     "method-override": "^3.0.0",
-    "mongoose": "^5.10.2"
+    "mongoose": "^5.4.18"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0",
-    "nodemon": "^2.0.4"
-  }
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavrilaLucian/myLibrary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GavrilaLucian/myLibrary/issues"
+  },
+  "homepage": "https://github.com/GavrilaLucian/myLibrary#readme",
+  "description": ""
 }
