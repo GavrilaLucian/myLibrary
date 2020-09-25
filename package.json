@@ -1,6 +1,7 @@
 {
-  "name": "github",
+  "name": "GitHub",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -20,14 +21,5 @@
   "devDependencies": {
     "dotenv": "^6.2.0",
     "nodemon": "^1.18.10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GavrilaLucian/myLibrary.git"
-  },
-  "bugs": {
-    "url": "https://github.com/GavrilaLucian/myLibrary/issues"
-  },
-  "homepage": "https://github.com/GavrilaLucian/myLibrary#readme",
-  "description": ""
+  }
 }
