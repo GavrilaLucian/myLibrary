@@ -1,7 +1,6 @@
 if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').load()
+  require('dotenv').config({path:'my-app/.env'});
 }
-
 const express = require('express')
 const app = express()
 const expressLayouts = require('express-ejs-layouts')
